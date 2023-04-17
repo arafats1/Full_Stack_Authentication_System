@@ -7,7 +7,6 @@ const User = require("./db/userModel");
 const auth = require('./auth');
 // require database connection 
 const dbConnect = require("./db/dbConnect");
-// execute database connection 
 dbConnect();
 
 app.use((req, res, next) => {
